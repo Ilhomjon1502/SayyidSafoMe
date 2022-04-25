@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">SayyidSafo</string>
+    <string name="title_home">Асосий</string>
+    <string name="title_car_mode">Уловда</string>
+    <string name="title_play">Эшитиш</string>
+    <string name="title_chosen">Сақланганлар</string>
+    <string name="text_hello">Ассаламу алайкум!</string>
+    <string name="text_day_notif">Кундалик эслатма</string>
+    <string name="text_lessons">Дарслар</string>
+    <string name="text_sum_lesson">та дарс</string>
+    <string name="text_dars1">Жума мавъизалари</string>
+    <string name="text_dars2">Долзарб мавзулар</string>
+    <string name="text_dars3">Руҳий тарбия</string>
+    <string name="text_dars4">Фарзанд тарбияси</string>
+    <string name="text_dars5">Саволим бор</string>
+    <string name="text_dars6">Фарзанд тарбияси</string>
+    <string name="text_dars7">Аллоҳ таолога одоб</string>
+    <string name="text_dars8">Оғриқли мавзулар</string>
+    <string name="text_dars_sub_1">Устоз Саййид Абдулбоситхон Сафохон ўғлининг жума мавъизаларидан баҳраманд бўлинг</string>
+    <string name="text_dars_sub_2">Кундалик ҳаётимизда биз дуч келадиган долзарб мавзулар</string>
+    <string name="text_dars_sub_3">Қалб касалликларига оид мавзулар</string>
+    <string name="text_dars_sub_4">Болаларни қандай қилиб буюк инсон қилиб тарбиялашдаги ўгитлар</string>
+    <string name="text_dars_sub_5">Мўмин-мусулмонлар орасида учраб турадиган муҳим саволлар</string>
+    <string name="text_dars_sub_6">Аллоҳ таолога ёруғ юз ила йўлиқиш учун тавсиялар</string>
+    <string name="text_dars_sub_7">Аллоҳ таоло билан боғланиш йўллари</string>
+    <string name="text_dars_sub_8">Миллатимиз ичидаги оғриқли мавзулар</string>
+    <string name="text_search">Излаш</string>
+    <string name="text_lesson_sum">Дарслар сони:</string>
+    <string name="text_telegram">Телеграм канал</string>
+    <string name="text_share">Улашиш</string>
+    <string name="text_about">Биз ҳақимизда</string>
+    <string name="text_other_apps">Бизнинг дастурларимиз</string>
+    <string name="telegram_url">https://t.me/sayyidsafo</string>
+    <string name="about_us">Биз ҳақимизда</string>
+    <string name="about_us_text">Фарғона вилояти, Марғилон шаҳар «Зайд ибн Ҳориса» жомеъ масжиди собиқ имом-хатиби Устоз Саййид Абдулбоситхон Сафохон ўғли</string>
+    <string name="app_url">https://play.google.com/store/apps/details?id=uz.mnsh.sayyidsafo</string>
+    <string name="copyright">Sayyid Safo | Барча ҳуқуқлар ҳимояланган</string>
+    <string name="our_app">http://play.google.com/store/apps/developer?id=Muhammadamin+MNSH</string>
+    <string name="title_saved">Юканганлар</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

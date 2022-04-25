@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment2">
+
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="uz.mnsh.sayyidsafo.ui.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment2_to_listenFragment2"
+            app:destination="@id/listenFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/listenFragment2"
+        android:name="uz.mnsh.sayyidsafo.ui.ListenFragment"
+        android:label="fragment_listen"
+        tools:layout="@layout/fragment_listen" />
+</navigation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/telegram_chanel"
+        android:icon="@drawable/ic_telegram"
+        android:title="@string/text_telegram" />
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/text_share" />
+
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_about"
+        android:title="@string/text_about" />
+
+    <item
+        android:id="@+id/other_apps"
+        android:icon="@drawable/ic_other_apps"
+        android:title="@string/text_other_apps" />
+</menu>
