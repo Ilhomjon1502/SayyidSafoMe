@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="100">
+       <KeyFrameSet>
+       </KeyFrameSet>
+        <OnSwipe motion:touchAnchorId="@+id/recycler_lessons" />
+        <OnSwipe motion:touchAnchorId="@+id/recycler_lessons" />
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+        <Constraint
+            android:layout_height="30dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintRight_toRightOf="parent"
+            android:layout_width="200dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/edit_search"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="192dp"
+            android:layout_marginStart="192dp" />
+        <Constraint
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            motion:layout_constraintBottom_toTopOf="@id/tv_lesson_subtitle"
+            motion:layout_constraintTop_toBottomOf="@id/edit_search"
+            motion:layout_constraintVertical_chainStyle="packed"
+            android:id="@+id/tv_lesson_title"
+            motion:layout_constraintStart_toEndOf="@+id/img_listen"
+            motion:layout_constraintEnd_toEndOf="parent" />
+        <Constraint
+            android:layout_height="wrap_content"
+            motion:layout_constraintTop_toTopOf="@+id/img_listen"
+            motion:layout_constraintBottom_toTopOf="@id/recycler_lessons"
+            android:layout_width="match_parent"
+            android:id="@+id/tv_lesson_sum" />
+    </ConstraintSet>
+</MotionScene>

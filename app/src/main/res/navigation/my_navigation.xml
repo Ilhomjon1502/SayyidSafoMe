@@ -19,4 +19,14 @@
         android:name="uz.mnsh.sayyidsafo.ui.ListenFragment"
         android:label="fragment_listen"
         tools:layout="@layout/fragment_listen" />
+    <fragment
+        android:id="@+id/saveFragment"
+        android:name="uz.mnsh.sayyidsafo.ui.SaveFragment"
+        android:label="fragment_save"
+        tools:layout="@layout/fragment_save" />
+    <fragment
+        android:id="@+id/mediaFragment"
+        android:name="uz.mnsh.sayyidsafo.ui.MediaFragment"
+        android:label="fragment_media"
+        tools:layout="@layout/fragment_media" />
 </navigation>

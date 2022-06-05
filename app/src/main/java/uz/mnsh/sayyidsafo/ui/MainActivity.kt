@@ -1,19 +1,24 @@
 package uz.mnsh.sayyidsafo.ui
 
+import android.annotation.SuppressLint
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.navigation.Navigation
+import androidx.navigation.findNavController
 import uz.ilhomjon.sayyidsafo.network.utils.NetworkHelper
 import uz.mnsh.sayyidsafo.R
 import uz.mnsh.sayyidsafo.databinding.ActivityMainBinding
 import uz.mnsh.sayyidsafo.databinding.DialogInfoBinding
+import uz.mnsh.sayyidsafo.model.MyObjects.audioLiveData
 import uz.mnsh.sayyidsafo.utils.UiData
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     lateinit var networkHelper: NetworkHelper
+    @SuppressLint("ResourceType")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -23,6 +28,32 @@ class MainActivity : AppCompatActivity() {
         hasNetwork()
 
         setDrawerLayout()
+
+        setMediaPlayer()
+
+        binding.apply {
+            bottomNavigation.setOnItemSelectedListener {
+                when(it.itemId){
+                    R.id.homeFragment -> {
+                        findNavController(R.id.my_navigation_host).navigate(R.id.homeFragment2)
+                    }
+                    R.id.chosenFragment -> {
+                        findNavController(R.id.my_navigation_host).navigate(R.id.saveFragment)
+                    }
+                    R.id.listenFragment -> {
+                        findNavController(R.id.my_navigation_host).navigate(R.id.mediaFragment)
+                    }
+                }
+                true
+            }
+        }
+    }
+
+    private fun setMediaPlayer() {
+
+        audioLiveData.observe(this){
+
+        }
     }
 
     private fun setDrawerLayout() {

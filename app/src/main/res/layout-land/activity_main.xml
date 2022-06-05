@@ -35,6 +35,7 @@
             android:layout_height="60dp"
             android:clickable="true"
             android:focusable="true"
+            android:visibility="gone"
             app:layout_constraintBottom_toTopOf="@id/nav_view">
 
             <ProgressBar

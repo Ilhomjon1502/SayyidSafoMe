@@ -12,5 +12,6 @@ data class Data(
     val name: String,
     val rn: Int,
     val size: String,
-    val topic_id: Int
+    val topic_id: Int,
+    var filePath:String? = null
 )
